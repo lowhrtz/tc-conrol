@@ -6,13 +6,13 @@ from urlparse import parse_qs
 from subprocess import call
 
 # Basic Settings
-USER_EXT = '1002'
-USER_PWD = '96a32de4efff2fa0039c75bcac0cbef2'
-AMI_USER = 'admin'
-AMI_SECRET = 'amp111'
+USER_EXT = '5555'
+USER_PWD = 'somepassword'
+AMI_USER = 'amiuser'
+AMI_SECRET = 'amipassword'
 MYSQL_HOST = 'localhost'
-MYSQL_USER = 'asteriskuser'
-MYSQL_PASS = 'asteriskABC123'
+MYSQL_USER = 'mysqluser'
+MYSQL_PASS = 'mysqlpass'
 MYSQL_DB = 'asterisk' # Change this if you created a MySQL/MariaDB Database under a different name.
 
 # Advanced Settings
